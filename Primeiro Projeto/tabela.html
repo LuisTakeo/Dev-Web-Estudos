@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--index significa ser a página inicial do HTML-->
+<html>
+	
+	<head>
+		<title>site</title>
+		<meta charset="utf-8">
+	</head>
+
+	<body>
+
+        <h2>Produtos</h2>
+
+        <table border="2" width="50%"> <!--utilizado para criar tabelas-->
+            <tr> <!--tr significa table row utilizado para cada linha-->
+                <th>Código</th> <!--th significa table header, serve pra deixar como título da tabela, com negrito e centralizado -->
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>001</td> <!--td significa table data, utilizado para as colunas da tabela-->
+                <td>Notebook</td>
+                <td>R$2.500,99</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Tablet</td>
+                <td>R$999,99</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Desconto</td> <!--rowspan serve para uma coluna ocupar o espaço de mais de 1 linha-->
+                <td colspan="2">Cupom1 - R$10,00</td> <!--colspan serve para uma coluna ocupar o espaço de mais de 1 coluna-->
+            </tr>
+
+            <tr>
+                <td colspan="2">Cupom2 - R$12,00</td> 
+            </tr>
+
+            <tr>
+                <td>Total</td> 
+                <td colspan="2">R$3.478,98</td>
+            </tr>
+
+
+        </table>
+
+	</body>
+</html>
