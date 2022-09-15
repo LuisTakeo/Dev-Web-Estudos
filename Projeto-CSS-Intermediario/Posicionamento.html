@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Estilo CSS Externo - Display</title>
+		<meta charset="utf-8">
+
+        <style type="text/css">
+            
+            .container {
+                border: solid 2px red;
+                background: gainsboro;
+                width: 800px;
+                margin: 20px auto;
+                padding: 15px;
+                position: relative;
+            }
+            
+            .static {
+                border: solid 2px red;
+                position: static;
+            }
+            
+            .relative {
+                border: solid 2px red;
+                position: relative;
+                bottom: 50px;
+                left: 400px;
+            }
+
+            .absolute {
+                border: solid 2px red;
+                position: absolute;
+                top: 0px;
+                right: 10px;
+            }
+
+            .fixed {
+                border: solid 2px red;
+                position: fixed;
+                top: 50px;
+                right: 42px;
+            }
+
+            h1 {
+
+            }
+
+            p {
+                width: 200px;
+                margin: 0px;
+            }
+            
+            
+        </style>
+	</head>
+	<body>
+
+        <div class="container">
+            <h1> Posicionamentos </h1>
+
+            <p class="static"> O posicionamento static é o posicionamento padrão dos elementos. Este texto está com tamanho de 400px</p>
+
+            <p class="relative"> Este texto está com a position relative. Para posicionar o relative, é necessário utilizar os atributos top, bottom, left e right</p>
+
+            <p class="absolute"> A posição Absolute já é baseada na posição que o elemento está no container (div) que tenha uma posição. Se não, vai ser posicionado no body</p>
+
+            <p class="static"> O posicionamento static é o posicionamento padrão dos elementos. Este texto está com tamanho de 400px</p>
+
+            <p class="relative"> Este texto está com a position relative. Para posicionar o relative, é necessário utilizar os atributos top, bottom, left e right</p>
+
+            <p> A posição Absolute já é baseada na posição que o elemento está no container (div) que tenha uma posição. Se não, vai ser posicionado no body</p>
+
+            <p class="static"> O posicionamento static é o posicionamento padrão dos elementos. Este texto está com tamanho de 400px</p>
+
+            <p class="relative"> Este texto está com a position relative. Para posicionar o relative, é necessário utilizar os atributos top, bottom, left e right</p>
+
+            <p> O atributo fixed pode também ser usado em chats de sites, menus, entre outros.</p>
+
+            <p class="fixed"> O posicionamento Fixed já fica fixo junto com a barra de rolagem de seu navegador.</p>
+
+        </div>
+        
+        
+	</body>
+</html>

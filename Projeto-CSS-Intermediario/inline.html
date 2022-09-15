@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Estilo CSS Externo - Display</title>
+		<meta charset="utf-8">
+
+        <style type="text/css">
+            
+            .texto{
+                border: 2px solid red;
+                width: 800px;
+                padding: 10px 30px;
+                margin: 20px;
+            }
+
+            .inline {
+                width: 300px;
+                border: 2px solid red;
+                background: aquamarine;
+                display: inline;
+            }
+
+            .block {
+                display: block;
+                border: 2px solid red;
+                background: aquamarine;
+            }
+
+            .inlineblock {
+                display: inline-block;
+                border: 2px solid red;
+                background: aquamarine;
+            }
+            h1{
+                text-align: center;
+            }
+            
+        </style>
+	</head>
+	<body>
+        
+        <div class="texto">
+            <h1>Inline, block e Inline block</h1>
+
+            <p>
+                São atributos de display, aonde o conteúdo vai se posicionar de uma forma diferente na tela.
+                <ul>
+                    <li>Inline: O conteúdo somente vai ocupar o espaço utilizado na tela. Quando tiver um novo conteúdo de mesmo tipo, vai ocupar o espaço disponível ao lado.</li>
+                    <li>Block: O conteúdo vai ocupar todo espaço em bloco na tela, como acontece no h1, p, tr. Quando tiver um novo conteúdo, ele vai para o espaço de baixo.</li>
+                    <li>Inline-block: Vai ocupar o espaço disponível e quando não tiver, vai ocupar o espaço abaixo</li>
+                </ul>
+            </p>
+
+            <h2>Exemplos de display</h2>
+
+            <p>Inline:</p>
+            <div class="inline">Esse é um display inline</div>
+            <div class="inline">Esse é um display inline</div>
+            <div class="inline">Esse é um display inline</div>
+            <div class="inline">Esse é um display inline</div>
+            <div class="inline">Esse é um display inline</div>
+            
+            <p>Block</p>
+            <div class="block">Este é um display block</div>
+            <div class="block">Este é um display block</div>
+
+            <p>Inline-Block:</p>
+            <div class="inlineblock">Este é um display inline-block</div>
+            <div class="inlineblock">Este é um display inline-block</div>
+            <div class="inlineblock">Este é um display inline-block</div>
+            <div class="inlineblock">Este é um display inline-block</div>
+            <div class="inlineblock">Este é um display inline-block</div>
+            <div class="inlineblock">Este é um display inline-block</div>
+        </div>
+	</body>
+</html>
