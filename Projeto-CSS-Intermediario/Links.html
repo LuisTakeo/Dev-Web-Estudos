@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Estilo CSS Externo - Display</title>
+		<meta charset="utf-8">
+
+        <style type="text/css">
+            
+            .texto{
+                border: 2px solid red;
+                width: 800px;
+                padding: 10px 30px;
+                margin: 20px;
+            }
+
+            .inline {
+                width: 300px;
+                border: 2px solid red;
+                background: aquamarine;
+                display: inline;
+            }
+
+            .block {
+                display: block;
+                border: 2px solid red;
+                background: aquamarine;
+            }
+
+            .inlineblock {
+                display: inline-block;
+                border: 2px solid red;
+                background: aquamarine;
+            }
+            h1{
+                text-align: center;
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            #container {
+                border: 2px solid red;
+                width: 890px;
+                padding: 10px 30px;
+                margin: 20px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:link {
+                color: blue;
+            }
+
+            a:visited {
+                color: royalblue;
+            }
+
+            a:hover {
+                color: aqua;
+            }
+
+            a:active {
+                color: aquamarine;
+            }
+
+            
+        </style>
+	</head>
+	<body>
+        
+        <div id="container">
+            <h1>Formatando Links</h1>
+
+            <div class="texto">
+                <p>
+                    Os links possuem mais de um estado, a qual é possível a formatação de cada um deles. Os estados do link são:
+                    <ul>
+                        <li>a:link - Link a qual nunca foi visitado.</li>
+                        <li>a:visited - Link a qual já foi visitado.</li>
+                        <li>a:hover - Estado do link quando o mouse está em cima dele.</li>
+                        <li>a:active - Link ativo, ou seja, quando seguramos o clique nele.</li>
+                    </ul>
+                </p>
+            </div>
+                <hr>
+
+                <h2>Exemplos: Meus sites favoritos</h2>
+
+            <div class="texto">
+                <p>
+                    Meus sites favoritos são:
+
+                    <ol>
+                        <li><a href="https://www.youtube.com">Youtube</a></li>
+                        <li><a href="https://www.twitter.com">Twitter</a></li>
+                        <li><a href="https://www.instagram.com">Instagram</a></li>
+                        <li><a href="https://open.spotify.com">Spotify</a></li>
+                    </ol>
+                </p>
+                
+            </div>
+        
+        </div>
+	</body>
+</html>

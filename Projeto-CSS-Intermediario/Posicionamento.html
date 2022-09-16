@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Estilo CSS Externo - Display</title>
+		<title>Estilo CSS Externo - Display e Sobreposição</title>
 		<meta charset="utf-8">
 
         <style type="text/css">
@@ -13,6 +13,17 @@
                 margin: 20px auto;
                 padding: 15px;
                 position: relative;
+            }
+
+            .container2 {
+                border: solid 2px red;
+                background: gainsboro;
+                width: 800px;
+                height: 200px;
+                margin: 20px auto;
+                padding: 15px;
+                position: relative;
+                right: auto;
             }
             
             .static {
@@ -41,8 +52,36 @@
                 right: 42px;
             }
 
-            h1 {
+            .conteudo1 {
+                border: solid 2px red;
+                background: gainsboro;
+                padding: 10px;
+                position: absolute;
+                z-index: 2;
+            }
 
+            .conteudo2 {
+                border: solid 2px red;
+                background: gainsboro;
+                padding: 10px;
+                position: absolute;
+                top: 60px;
+                left: 80px;
+                z-index: 1;
+            }
+
+            .conteudo3 {
+                border: solid 2px red;
+                background: gainsboro;
+                padding: 10px;
+                position: absolute;
+                top: 110px;
+                left: 120px;
+                z-index: 0;
+            }
+
+            h1 {
+                text-align: center;
             }
 
             p {
@@ -80,6 +119,14 @@
 
         </div>
         
+        <div class="container2">
+
+            <p class="conteudo1"> A propriedade Z-index mostra qual item aparece primeiro.</p>
+            <p class="conteudo2"> A propriedade Z-index mostra qual item aparece primeiro.</p>
+            <p class="conteudo3"> A propriedade Z-index mostra qual item aparece primeiro.</p>
+            
+
+        </div>
         
 	</body>
 </html>
