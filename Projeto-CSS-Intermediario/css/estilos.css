@@ -1,0 +1,15 @@
+.conteudo{
+    border: 2px solid blue;
+    /*padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;*/
+    padding: 20px 10px;
+    /*margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;*/
+    margin: 20px; 
+    /*a margem a ser aplicada sempre vai ser a maior*/
+    width: 200px;
+}

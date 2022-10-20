@@ -1,0 +1,251 @@
+/***Estrutura do site ***/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(../img/fundo.png) repeat-x;
+}
+
+#container {
+    width: 720px;
+    margin: 10px auto;
+}
+
+#cabecalho {
+    height: 170px;
+    background: url(../img/detalhe-topo.png) no-repeat right top;
+    padding-top: 1em;
+}
+
+.logo {
+    background: url(../img/logo.png) no-repeat top left;
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+
+/****Barra de navegação****/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho ul{
+    background: #b10333;
+    margin-top: 2em;
+}
+
+#cabecalho ul, #navegacao li {
+    float: left;
+}
+
+#cabecalho > ul > li > a {
+    padding: 0.5em 1em;
+    display: inline-block;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    
+}
+
+#cabecalho > ul > li{
+    background: url(../img/divisor.png) no-repeat left center;
+}
+
+#cabecalho > ul > li:first-child{
+    background: none;
+}
+
+#cabecalho > ul > li > a:hover{
+    color: #69001d;
+
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos
+{
+    color: #fff;
+    background-color: #de003e;
+    cursor: text;
+}
+
+#conteudo {
+    margin-top: 40px;
+    background: #f5f5f5;
+}
+
+#conteudo-lateral{
+    width: 150px;
+    float: left;
+    margin: 0 0 20px -700px;
+}
+
+#tres-colunas #conteudo-principal, #conteudo-secundario {
+    width: 265px;
+    float: left;
+}
+
+#conteudo-principal {
+    margin: 0 0 20px 120px;
+    
+}
+
+#duas-colunas #conteudo-principal {
+    float: left;
+    width: 500px;
+}
+
+#uma-coluna #conteudo-principal {
+    float: left;
+    width: 720px;
+    margin: 0 0 20px 0;
+}
+
+#conteudo-secundario {
+    margin: 0 0 20px 10px;
+    
+}
+
+/***caixa***/
+
+.caixa {
+    background: url(../img/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.titulo-caixa {
+    color: #FFF;
+    background: #294c71;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+.caixa-conteudo {
+    background: #FFF;
+    padding: 5px 10px;
+    margin-top: 8px;
+}
+
+/***Conteudo principal***/
+
+.caixa-conteudo img {
+    width: 98%;
+    border: 2px solid #dfdfdf;
+}
+
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 1em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #FFF;
+}
+
+.entrevista h3 {
+    background: #de003e;
+}
+
+/***Noticias***/
+
+#lista-noticias li{
+    padding: 3px;
+    border-bottom: 2px solid #ccc;
+    display: block;
+    width: 220px;
+}
+
+#lista-noticias li a img{
+    float: left;
+    width: 33%;
+    margin: 3px;
+}
+
+#lista-noticias li a{
+    text-decoration: none;
+}
+
+#lista-noticias li a h3{
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+    
+}
+
+#lista-noticias li a p{
+    font-size: 0.7em;
+    color: #000;
+}
+
+#lista-noticias li:hover{
+    background: #ccc;
+    cursor: pointer;
+}
+
+
+
+/***Lateral***/
+
+#conteudo-lateral ul a {
+    font-size: 0.9em;
+    color: #000;
+    display: block;
+    padding: 5px;
+    border-bottom: 2px solid #f3f3f3;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+#conteudo-lateral ul a:hover {
+    background: url(../img/marcador.png) no-repeat left center;
+    color: #a1a1a1;
+    padding-left: 20px;
+}
+
+#conteudo-lateral label {
+    display: block;
+    cursor: pointer;
+
+}
+
+#conteudo-lateral input{
+    font-size: 0.9em;
+    background-color: #FFF;
+    padding: 5px;
+    width: 115px;
+    margin: 5px 0;
+}
+
+#conteudo-lateral input.submit {
+    color: #FFF;
+    background: #b10333;
+    border: #870529;
+}
+
+/*rodapé*/
+#container-rodape {
+    clear: both;
+    background: #294c71;
+    padding: 30px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}

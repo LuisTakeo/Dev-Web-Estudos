@@ -1,0 +1,22 @@
+#lista-vertical {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#lista-vertical > li > a {
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+    text-indent: 30px;
+    width: 200px;
+    height: 40px;
+    display: block;
+    background: url("../img/menu.png") no-repeat left bottom #fbd97c;
+}
+
+#lista-vertical > li > a:hover{
+    color: white;
+    background-position: right bottom;
+    background-color: rgb(255, 150, 12);
+}

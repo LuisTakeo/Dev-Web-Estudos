@@ -1,0 +1,52 @@
+li {
+    list-style: square;
+}
+
+.conteudo{
+    border: 2px solid blue;
+    padding: 20px 10px;
+    margin: 20px; 
+    width: 400px;
+    height: 150px;
+    float: left;
+}
+
+.conteudo2{
+    border: 2px solid blue;
+    padding: 20px 10px;
+    margin: 20px; 
+    width: 400px;
+    height: 150px;
+    float: right;
+}
+
+
+.clear{
+    clear: both;
+}
+
+#titulo{
+    text-align: center;
+    color: turquoise;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#estudo{
+    border: 3px solid goldenrod;
+    background-color: whitesmoke;
+}
+
+#paginaleft{
+    border: 2px solid mediumaquamarine;
+    width: 600px;
+    margin: 20px 50px;
+    float: left;
+}
+
+#paginaright{
+    border: 2px solid mediumaquamarine;
+    width: 600px;
+    margin: 20px 50px;
+    float: right;
+}
