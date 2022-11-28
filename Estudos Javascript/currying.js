@@ -31,7 +31,7 @@ function tabuadaEscolha(x){
     }
 }
 
-let x = Number("!!")
+let x = Number("!!") // Lembrete: vou criar uma pagina com um botão que vai receber um valor, calcular uma tabuada e jogar na tela
 if(x === Number(x)){
     tabuadaEscolha(x)
 }else{
