@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="teste">
+    <button onclick="ativarContagem()">Acionar</button>
+    <p id="contador"></p>
+
+    <p id="idade"></p>
+    
+    <script>
+        const ativarContagem = () => {
+            let texto = document.getElementById("contador");
+            let contador = 5000;
+            texto.innerHTML = "Começou a contar"   
+            setTimeout(function(){
+                texto.innerHTML = "Terminou de contar"
+            }, 5000);
+        }
+
+        const idade = 0 
+
+        document.getElementById("idade").innerText = `Sua idade é ${(idade ?? "Não informado")}`//Nullish Operator
+    </script>
+</body>
+</html>

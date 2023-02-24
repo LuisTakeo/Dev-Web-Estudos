@@ -9,3 +9,14 @@ for(let i of frutas){//o for of pega o conteudo do indice, contudo não funciona
 for(let i in pessoas){//o for in pega o indice e funciona tanto em objetos, quando em arrays
     console.log(i)
 }
+
+class Bolo{
+    constructor(recheio, cobertura, sabor){
+        this.recheio = recheio,
+        this.cobertura = cobertura,
+        this.sabor = sabor
+    },
+    constroiParagrafo(seletor){
+        document.querySelector(seletor).innerHTML =
+    }
+}

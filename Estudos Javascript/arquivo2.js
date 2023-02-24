@@ -6,7 +6,13 @@ console.log(lista);
 console.log(lista.reverse());//le a lista de tras pra frente
 console.log(lista.toString());//transforma em string
 console.log(lista.join(" - "));//adiciona o que quisermos entre os elementos
-
+console.log(lista.join(""));
+var palavra = "Bolo";
+var palavra2 = "_olo"
+var preenchimento = "_ "
+palavra2 = preenchimento.repeat(palavra.length);
+console.log(palavra2)
+console.log(palavra.includes("o"))
 var fruta = [//array
     {nome: "Maçã", cor: "Vermelha"},//objetos dentro de arrays
     {nome: "Pera", cor: "Verde"}
@@ -38,4 +44,4 @@ console.log(data);
 console.log(data.getDay());
 console.log(data.getFullYear());
 console.log(data.getHours());
-
+console.log(data)
