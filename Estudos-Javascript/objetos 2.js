@@ -18,7 +18,11 @@ const produto = {
     
 }
 
-console.log(produto.toString())
+const {nome,Qtd} = produto;
+
+console.log(`${nome} ${Qtd}`)
+
+console.log(produto)
 console.log(produto.comprar(3))
 console.log(produto.comprar(3))
 
